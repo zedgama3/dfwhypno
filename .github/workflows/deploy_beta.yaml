@@ -25,9 +25,7 @@ jobs:
         run: hugo --destination /opt/github-dfwhypno/public --environment beta
 
       - name: Clean destination
-        run: |
-          rm -rf /var/www/dfwhypno/www-beta/*
-          rm -rf /var/www/dfwhypno/www-beta/.*
-
+        run: rm -rf /var/www/dfwhypno/www-beta/*
+        
       - name: Copy public files to deployment directory
         run: cp -r /opt/github-dfwhypno/public/* /var/www/dfwhypno/www-beta/
