@@ -26,5 +26,4 @@ jobs:
 
       - name: Copy public files to deployment directory
         run: |
-          sudo cp -r /opt/github-dfwhypno/public/* /var/www/dfwhypno/www-beta/
-          sudo chown -R www-data:www-data /var/www/dfwhypno/www-beta/
+          cp -r /opt/github-dfwhypno/public/* /var/www/dfwhypno/www-beta/
