@@ -22,7 +22,7 @@ jobs:
         run: cd /opt/github-dfwhypno/_work/dfwhypno/dfwhypno
         
       - name: Build Hugo site
-        run: hugo --destination /opt/github-dfwhypno/public
+        run: hugo --destination /opt/github-dfwhypno/public --environment beta
 
       - name: Copy public files to deployment directory
         run: |
