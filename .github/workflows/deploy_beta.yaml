@@ -18,6 +18,9 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Change directory to Hugo project
+        run: cd /opt/github-dfwhypno/_work/dfwhypno/dfwhypno
+        
       - name: Build Hugo site
         run: hugo --destination /opt/github-dfwhypno/public
 
