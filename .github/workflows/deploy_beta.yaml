@@ -26,6 +26,6 @@ jobs:
 
       - name: Clean destination
         run: rm -rf /var/www/dfwhypno/www-beta/*
-        
+
       - name: Copy public files to deployment directory
-        run: cp -r /opt/github-dfwhypno/public/* /var/www/dfwhypno/www-beta/
+        run: cp -r /opt/github-dfwhypno/public/* /var/www/dfwhypno/www-beta/ 
