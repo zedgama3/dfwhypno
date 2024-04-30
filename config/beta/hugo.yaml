@@ -1,0 +1,15 @@
+baseURL: 'https://dev-dfwhypno.com/'
+languageCode: 'en-us'
+title: 'DFW Recreational Hypnosis'
+theme: 'lightbi-hugo'
+params:
+  hideAuthor: true
+  mainSections:
+  - hypno101
+  - community
+metaDataFormat: "yaml"
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: true
+buildExpired: true
+cleanDestinationDir: true

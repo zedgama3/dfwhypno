@@ -1,0 +1,11 @@
+baseURL: 'https://dfwhypno.com/'
+languageCode: 'en-us'
+title: 'DFW Recreational Hypnosis'
+theme: 'lightbi-hugo'
+# Author:
+#   name: "Hypno-Fiend"
+Params:
+  hideAuthor: true
+metaDataFormat: "yaml"
+enableRobotsTXT: false
+cleanDestinationDir: true
